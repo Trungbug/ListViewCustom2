@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="5dp"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="130dp"
+        android:src="@drawable/hanquoc"
+        android:id="@+id/imgcustom"
+        android:layout_height="120dp"></ImageView>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/textName"
+        android:fontFamily="sans-serif-medium"
+        android:text="Hàn Quốc">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="28.33.3333"
+        android:id="@+id/textpopulation"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="783.982"
+
+        android:id="@+id/textArea"
+        >
+    </TextView>
+</LinearLayout>
